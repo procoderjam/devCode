@@ -46,7 +46,7 @@ gem 'devise', '~>3.4.1'
 #Use Stripe to handle credit card payments
 gem 'stripe', '~>1.20.4'
 
-#Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file
+#Use Figaro to hide secret keys
 gem 'figaro', '~>1.1.0'
 
 # Use ActiveModel has_secure_password
